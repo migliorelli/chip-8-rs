@@ -1,0 +1,12 @@
+[package]
+name = "desktop"
+version = "1.0.0"
+edition = "2024"
+
+[[bin]]
+name = "chip8rs"
+path = "src/main.rs"
+
+[dependencies]
+core = { path = "../core" }
+sdl2 = "^0.38.0"
